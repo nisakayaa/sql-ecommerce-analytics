@@ -73,4 +73,22 @@ FROM customers c
 JOIN orders o ON o.customer_id = c.customer_id
 GROUP BY c.full_name
 ORDER BY order_count DESC
-LIMIT 1;
+LIMIT 1;-- E-commerce analytics project
+
+CREATE TABLE customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+
+CREATE TABLE orders (
+    id INT PRIMARY KEY,
+    customer_id INT,
+    order_date DATE,
+    total DECIMAL(10,2)
+);
+
+SELECT customers.name, orders.total
+FROM customers
+JOIN orders ON customers.id = orders.customer_id;
+
