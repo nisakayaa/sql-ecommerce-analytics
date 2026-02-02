@@ -1,6 +1,5 @@
 # SQL E‑Commerce Analytics
 
-A small SQL portfolio project: schema + sample data + 10 analytics queries for an e‑commerce dataset.
 
 ## Features
 - Normalized schema (customers, products, orders, order_items)
@@ -19,5 +18,3 @@ A small SQL portfolio project: schema + sample data + 10 analytics queries for a
 - Use your preferred DB and run the scripts in order: `schema.sql` → `seed.sql` → `queries.sql`
 
 
-## Notes
-- This repository is intended as a clean, small portfolio project for internship applications.
