@@ -8,7 +8,7 @@
 
 ## How to run
 
-**Option A (recommended): PostgreSQL with pgAdmin**
+
 1. Create a new database (e.g. `ecommerce_demo`)
 2. Open Query Tool and run `schema.sql`
 3. Run `seed.sql`
