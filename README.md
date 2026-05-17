@@ -14,7 +14,7 @@
 3. Run `seed.sql`
 4. Run `queries.sql` and observe results
 
-**Option B: Any SQL tool**
+**Option 2: Any SQL tool**
 - Use your preferred DB and run the scripts in order: `schema.sql` → `seed.sql` → `queries.sql`
 
 
