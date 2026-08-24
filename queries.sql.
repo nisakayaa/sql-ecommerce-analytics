@@ -1,2 +1,0 @@
--- Sample e-commerce analytics query
-SELECT * FROM orders;
